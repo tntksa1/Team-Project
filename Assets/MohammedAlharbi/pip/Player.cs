@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -14,59 +13,62 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
     private bool isGrounded;
+    private Transform cam;
+
+    private Vector3 moveDir;
+    private bool run;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         rb.freezeRotation = true;
+        cam = Camera.main.transform; // auto assign main camera
     }
 
     void Update()
     {
-        // Ground check
+        // check ground
         isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundLayer);
 
-        // Movement input
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        // input
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        run = Input.GetKey(KeyCode.LeftShift);
 
-        Vector3 moveDirection = new Vector3(horizontal, 0f, vertical).normalized;
+        // camera-based direction
+        Vector3 forward = cam.forward;
+        Vector3 right = cam.right;
+        forward.y = 0f;
+        right.y = 0f;
+        moveDir = (forward * v + right * h).normalized;
 
-        // Animation control
-        float moveAmount = moveDirection.magnitude;
-        anim.SetFloat("Speed", moveAmount);
-        anim.SetBool("IsRunning", isRunning);
+        // animations
+        anim.SetFloat("Speed", moveDir.magnitude);
+        anim.SetBool("IsRunning", run);
         anim.SetBool("IsGrounded", isGrounded);
 
-        // Rotate and move
-        if (moveDirection.magnitude >= 0.1f)
-        {
-            float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
-            float angle = Mathf.LerpAngle(transform.eulerAngles.y, targetAngle, rotationSpeed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-            float currentSpeed = isRunning ? runSpeed : moveSpeed;
-            Vector3 move = transform.forward * currentSpeed * Time.deltaTime;
-            rb.MovePosition(rb.position + move);
-        }
-
-        // Jump
+        // jump (in Update for instant response)
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z); // Reset Y velocity for consistent jumps
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z); // reset Y velocity
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("Jump");
         }
     }
 
-    void OnDrawGizmosSelected()
+    void FixedUpdate()
     {
-        if (groundCheck != null)
+        // move
+        if (moveDir.magnitude > 0.1f)
         {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            float targetAngle = Mathf.Atan2(moveDir.x, moveDir.z) * Mathf.Rad2Deg;
+            Quaternion targetRot = Quaternion.Euler(0, targetAngle, 0);
+            rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRot, rotationSpeed * Time.fixedDeltaTime));
+
+            float speed = run ? runSpeed : moveSpeed;
+            Vector3 move = moveDir * speed * Time.fixedDeltaTime;
+            rb.MovePosition(rb.position + move);
         }
     }
 }
