@@ -7,6 +7,7 @@ public class Playerinteractions : MonoBehaviour
     public AudioSource ad;
     public AudioClip  cloud;
     public AudioClip Jmup;
+    public Animator monster;
 
 
 
@@ -14,6 +15,7 @@ public class Playerinteractions : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         ad = GetComponent<AudioSource>();
+        monster = GetComponent<Animator>();
         
     }
 
@@ -33,5 +35,6 @@ public class Playerinteractions : MonoBehaviour
             ad.PlayOneShot(cloud);
 
         }
+        
     }
 }

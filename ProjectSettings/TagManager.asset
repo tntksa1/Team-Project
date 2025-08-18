@@ -8,6 +8,7 @@ TagManager:
   - a
   - b
   - JumpPlatform
+  - Hit
   layers:
   - Default
   - TransparentFX
