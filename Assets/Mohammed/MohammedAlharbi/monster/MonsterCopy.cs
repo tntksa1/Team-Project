@@ -1,7 +1,7 @@
 using TreeEditor;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+public class MonsterCopy : MonoBehaviour
 {
     public Transform a;
     public Transform b;

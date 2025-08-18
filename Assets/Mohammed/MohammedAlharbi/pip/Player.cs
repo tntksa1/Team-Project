@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementCopy : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float runSpeed = 8f;
