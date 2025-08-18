@@ -6,19 +6,23 @@ public class Playerinteractions : MonoBehaviour
     public AudioSource backgroundmusic;
     public AudioSource ad;
     public AudioClip  cloud;
+    public AudioClip Jmup;
 
 
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        cloud = GetComponent<AudioClip>();
+        ad = GetComponent<AudioSource>();
         
     }
 
     void Update()
     {
-
+        if (Input.GetButtonDown("Jump"))
+        {
+            ad.PlayOneShot(Jmup);
+        }
     }
 
     void OnCollisionEnter(Collision collision)
