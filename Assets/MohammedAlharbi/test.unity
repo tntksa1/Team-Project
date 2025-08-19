@@ -1547,6 +1547,7 @@ MonoBehaviour:
   ad: {fileID: 1215843271}
   cloud: {fileID: 8300000, guid: b09da3d3aac76c244a9aa20eda04779a, type: 3}
   Jmup: {fileID: 8300000, guid: 2c8355da77540e141a94ba665462ae64, type: 3}
+  Damage: {fileID: 8300000, guid: 7ba6d475f295ce84f9a8eb508cb6108c, type: 3}
   mr: {fileID: 342176450}
 --- !u!82 &1215843271
 AudioSource:
@@ -1561,7 +1562,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.08
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1652,7 +1653,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215843263}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
