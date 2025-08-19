@@ -8,6 +8,8 @@ public class Monster : MonoBehaviour
     public float speed;
     public Animator ainm;
     Rigidbody rb;
+    public Collider co;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,6 +17,7 @@ public class Monster : MonoBehaviour
         transform.LookAt(a);
         ainm = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
@@ -33,14 +36,20 @@ public class Monster : MonoBehaviour
         {
             transform.LookAt(a);
         }
-
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
+            rb.isKinematic = true;
+            co.enabled = false;
+            gameObject.tag = "HitEnemy";
             ainm.SetBool("Death", true);
             speed = 0;
+            Debug.Log("Death");
+            
         }
+
     }
+    
+    
+        
+    
 }

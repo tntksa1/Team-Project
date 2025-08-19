@@ -9,6 +9,7 @@ TagManager:
   - b
   - JumpPlatform
   - Hit
+  - Enem
   layers:
   - Default
   - TransparentFX

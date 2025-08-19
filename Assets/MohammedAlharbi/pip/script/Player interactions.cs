@@ -5,9 +5,14 @@ public class Playerinteractions : MonoBehaviour
     Animator anim;
     public AudioSource backgroundmusic;
     public AudioSource ad;
-    public AudioClip  cloud;
+    public AudioClip cloud;
     public AudioClip Jmup;
-    public Animator monster;
+   public SkinnedMeshRenderer mr;
+    Color origcolor;
+    float flashTime = .15f;
+    
+    
+
 
 
 
@@ -15,8 +20,8 @@ public class Playerinteractions : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         ad = GetComponent<AudioSource>();
-        monster = GetComponent<Animator>();
-        
+        mr = GetComponent<SkinnedMeshRenderer>();
+        origcolor = mr.material.color;
     }
 
     void Update()
@@ -33,8 +38,25 @@ public class Playerinteractions : MonoBehaviour
         {
             anim.SetTrigger("Jump");
             ad.PlayOneShot(cloud);
-
         }
-        
+
+        if (collision.gameObject.CompareTag("Enem"))
+        {
+            flashstart();
+            Debug.Log("damge");
+        }
+
+    }
+
+
+    void flashstart()
+    {
+        mr.material.color = Color.red;
+        Invoke("Flashend", flashTime);
+    }
+    void Flashend()
+    {
+        mr.material.color = origcolor;
     }
 }
+
