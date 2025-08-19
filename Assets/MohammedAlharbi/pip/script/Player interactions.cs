@@ -7,6 +7,7 @@ public class Playerinteractions : MonoBehaviour
     public AudioSource ad;
     public AudioClip cloud;
     public AudioClip Jmup;
+    public AudioClip Damage;
    public SkinnedMeshRenderer mr;
     Color origcolor;
     float flashTime = .15f;
@@ -44,6 +45,7 @@ public class Playerinteractions : MonoBehaviour
         {
             flashstart();
             Debug.Log("damge");
+            ad.PlayOneShot(Damage);
         }
 
     }
