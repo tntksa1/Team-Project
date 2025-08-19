@@ -143,8 +143,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.121649, z: 1}
-  m_Center: {x: 0, y: -0.060824543, z: 0}
+  m_Size: {x: 1, y: 0.796253, z: 1}
+  m_Center: {x: 0, y: -0.22352251, z: 0}
 --- !u!4 &57526285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -1812909498023395591, guid: abca5692ba8f70549b7bff56e2c9be98, type: 3}
@@ -377,6 +377,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 463586204}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 463586206}
     - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 27329502}
@@ -699,7 +702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368705615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073439345, y: 0.004906437, z: -0.00036130555, w: 0.9972876}
+  m_LocalRotation: {x: 0.073439345, y: 0.004906437, z: -0.00036130557, w: 0.9972876}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1023,6 +1026,103 @@ CapsuleCollider:
   m_Height: 0.9
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!82 &463586206
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463586194}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 6792cad8bc4c57943ab468964e8a74ce, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &499376362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2916570863362053800, guid: abca5692ba8f70549b7bff56e2c9be98, type: 3}
@@ -1946,7 +2046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406041915}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073439345, y: 0.0049064364, z: -0.00036130552, w: 0.9972876}
+  m_LocalRotation: {x: 0.073439345, y: 0.004906437, z: -0.00036130546, w: 0.9972876}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
