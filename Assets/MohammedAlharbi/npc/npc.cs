@@ -6,7 +6,7 @@ public class NPCDialogue : MonoBehaviour
     
     public string dialogueText = "Hello, traveler! Welcome to my village."; 
     public GameObject dialogueUI; 
-    public Text dialogueTextUI; 
+    //public Text dialogueTextUI; 
 
     private bool isPlayerNearby = false;
 
@@ -33,7 +33,7 @@ public class NPCDialogue : MonoBehaviour
         else
         {
             dialogueUI.SetActive(true); 
-            dialogueTextUI.text = dialogueText;
+           // dialogueTextUI.text = dialogueText;
         }
     }
 
