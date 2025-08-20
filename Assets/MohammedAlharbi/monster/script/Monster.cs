@@ -10,6 +10,7 @@ public class Monster : MonoBehaviour
     Rigidbody rb;
     public Collider co;
     AudioSource ad;
+    public Collider hit;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,6 +20,7 @@ public class Monster : MonoBehaviour
         ainm = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         ad = GetComponent<AudioSource>();
+        co = GetComponent<Collider>();
         
     }
 
@@ -40,13 +42,16 @@ public class Monster : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player"))
         {
-            
+
             rb.isKinematic = true;
             co.enabled = false;
             ad.Play();
             ainm.SetBool("Death", true);
             speed = 0;
             Debug.Log("Death");
+            hit.enabled = false;
+            
+            
             
         }
 
