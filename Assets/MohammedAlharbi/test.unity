@@ -702,7 +702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368705615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073439345, y: 0.004906437, z: -0.00036130557, w: 0.9972876}
+  m_LocalRotation: {x: 0.07343963, y: 0.00410489, z: -0.0003022804, w: 0.9972912}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -976,6 +976,7 @@ MonoBehaviour:
   speed: 2
   ainm: {fileID: 463586195}
   co: {fileID: 27329502}
+  hit: {fileID: 27329502}
 --- !u!54 &463586203
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1659,7 +1660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Hello, traveler! Welcome to my village.
   dialogueUI: {fileID: 1235887122}
-  dialogueTextUI: {fileID: 946298132}
 --- !u!4 &920841200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4042427859692680568, guid: abca5692ba8f70549b7bff56e2c9be98, type: 3}
@@ -1699,8 +1699,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0001297, y: -0.00075532}
-  m_SizeDelta: {x: 483.34, y: 122.71}
+  m_AnchoredPosition: {x: -0.00016022, y: -0.00038148}
+  m_SizeDelta: {x: 344.94, y: 122.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &946298132
 MonoBehaviour:
@@ -1723,19 +1723,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: cab6dd212f289904a84e2d46641ea997, type: 3}
+    m_FontSize: 42
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 66
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: wlcom to test world
 --- !u!222 &946298133
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2460,7 +2460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406041915}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073439345, y: 0.004906437, z: -0.00036130546, w: 0.9972876}
+  m_LocalRotation: {x: 0.07343961, y: 0.0041048895, z: -0.0003022803, w: 0.9972912}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
