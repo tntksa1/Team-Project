@@ -285,16 +285,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.85151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.85151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.85151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.75
+      value: 1.7504
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 1.0195
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.01
+      value: -3.0143
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bf8695a5935a3147b323d800e44f57b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -406,8 +418,9 @@ GameObject:
   - component: {fileID: 289840208}
   - component: {fileID: 289840207}
   - component: {fileID: 289840206}
+  - component: {fileID: 289840210}
   m_Layer: 3
-  m_Name: Jump platform (3)
+  m_Name: FallPlatform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -420,7 +433,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289840205}
-  m_Material: {fileID: 13400000, guid: 464a361813adc4747ae9a24eea235883, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -502,6 +515,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 450648809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289840210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289840205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 0.2
+  delay: 0.2
 --- !u!1 &295807873
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368705615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07343963, y: 0.004104889, z: -0.0003022803, w: 0.9972912}
+  m_LocalRotation: {x: 0.07343945, y: 0.00455203, z: -0.00033520727, w: 0.99728924}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1697,11 +1724,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1235887123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00016022, y: -0.00038148}
-  m_SizeDelta: {x: 344.94, y: 122.71}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 250}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &946298132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1723,12 +1750,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: d2b9b78ad621fc845b2366ce80b87e27, type: 3}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: 8fa48072d09e5c749a243eafe20d763e, type: 3}
+    m_FontSize: 78
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 77
+    m_MaxSize: 78
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2235,10 +2262,10 @@ RectTransform:
   m_Father: {fileID: 1970715794}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.9078064, y: -146.8983}
-  m_SizeDelta: {x: -358.6606, y: -316.69}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 250}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1235887124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2460,7 +2487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406041915}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073439606, y: 0.004104888, z: -0.00030228015, w: 0.9972912}
+  m_LocalRotation: {x: 0.07343946, y: 0.0045520305, z: -0.00033520724, w: 0.99728924}
   m_LocalPosition: {x: 1.0026588, y: 3.0790582, z: -13.84717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2582,8 +2609,9 @@ GameObject:
   - component: {fileID: 1526830380}
   - component: {fileID: 1526830379}
   - component: {fileID: 1526830378}
+  - component: {fileID: 1526830382}
   m_Layer: 3
-  m_Name: Jump platform (2)
+  m_Name: ' FallPlatform (2)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2596,7 +2624,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526830377}
-  m_Material: {fileID: 13400000, guid: 464a361813adc4747ae9a24eea235883, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2678,6 +2706,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 450648809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1526830382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526830377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 0.3
+  delay: 0.2
 --- !u!4 &1533287664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2594260964506120097, guid: abca5692ba8f70549b7bff56e2c9be98, type: 3}
@@ -2765,8 +2807,9 @@ GameObject:
   - component: {fileID: 1836446448}
   - component: {fileID: 1836446447}
   - component: {fileID: 1836446446}
+  - component: {fileID: 1836446450}
   m_Layer: 3
-  m_Name: Jump platform
+  m_Name: FallPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2779,7 +2822,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836446445}
-  m_Material: {fileID: 13400000, guid: 464a361813adc4747ae9a24eea235883, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2861,6 +2904,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 450648809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1836446450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836446445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 0.1
+  delay: 0.2
 --- !u!1 &1848006390
 GameObject:
   m_ObjectHideFlags: 0
