@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 8b21fde10bfe1744e982b0045bd54745
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 48
+        width: 410
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f70aaf02d6ef8a4d8093b56d0c95ee0
+      internalID: 382182363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 48
+        width: 410
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4330b921afd235e4e848810493ffe59b
+      internalID: -1408232047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 771
+        width: 238
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fbaaf777012524f8bf26dc559a0838
+      internalID: 511998377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_3
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 777
+        width: 243
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a6cd92d9f52824db484383b2c7dd09
+      internalID: 1154302250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_4
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 773
+        width: 208
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63794e66a41da2145abe8900b177f84b
+      internalID: -398483882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_5
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 759
+        width: 205
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0550a4c98eb44ee4a9270f4c1df6c64b
+      internalID: 26538187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_6
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 638
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73201ac18f062748bf2517db466f000
+      internalID: -381931096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_7
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 641
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b5bd488e4148e429ae8453a306b5a9
+      internalID: -1575796465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_8
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 619
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4454d5e6fb14147bceabdfb6306bd7
+      internalID: -1334175041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_9
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 621
+        width: 154
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9d019b7ca3504da03b65c45854ac1
+      internalID: 2028199494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 620
+        width: 153
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a23f17a0a64754ba9cf2614a6d4be3
+      internalID: -1482116024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_11
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 605
+        width: 222
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd4387600dba7641b1b0f8dfa5ccd6b
+      internalID: -1088349680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 505
+        width: 426
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1ce6c8fe7feec4a8a8b003016b4edc
+      internalID: -1913460593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 506
+        width: 285
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76838b7ea9cb22447a4a2b6335a58561
+      internalID: -717742511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_14
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 509
+        width: 257
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15d7dc1479c9e64eb58a5cea80535ca
+      internalID: 446763351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_15
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 372
+        width: 240
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559dd4805662b9a45a7884299ab273e8
+      internalID: -181173852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_16
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 383
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c616705cac9d2f747aab28fcd827b22f
+      internalID: -1768709944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_17
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 383
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d898f90e618fa4f877b332bfab5afb
+      internalID: 919760860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_18
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 383
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5af729a66f3be743ad49a4bc98aa297
+      internalID: -1566545733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_19
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 382
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0f6454eec033648a928f338497882e
+      internalID: -1863460507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_20
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 362
+        width: 276
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dba6679bd43b944bcd05ee2cf2e054
+      internalID: -1760758515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_21
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 61
+        width: 319
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63321a9648ccb74297733bd7f09a0b8
+      internalID: 390577066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_22
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 203
+        width: 313
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba2123503eb21d40aea9476dc15cb55
+      internalID: -35196431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_23
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 65
+        width: 102
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4680d5892dc14488e152d3e2e469c7
+      internalID: -1683077696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_24
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 218
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fbdc4d755f86b47845914260ddf1b6
+      internalID: 555498632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_25
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 69
+        width: 225
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c596a58e1d2376d49927d602d338d438
+      internalID: -964158339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_26
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 79
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134863dc8d6fa444a707dcefb503766
+      internalID: -1560138528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_27
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 74
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c761bd4e57ddc8448a6c9920e9a2249a
+      internalID: 805275767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 488a7a43ccfa49549b14159e8767e1af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_0: 382182363
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_1: -1408232047
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_10: -1482116024
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_11: -1088349680
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_12: -1913460593
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_13: -717742511
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_14: 446763351
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_15: -181173852
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_16: -1768709944
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_17: 919760860
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_18: -1566545733
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_19: -1863460507
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_2: 511998377
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_20: -1760758515
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_21: 390577066
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_22: -35196431
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_23: -1683077696
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_24: 555498632
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_25: -964158339
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_26: -1560138528
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_27: 805275767
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_3: 1154302250
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_4: -398483882
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_5: 26538187
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_6: -381931096
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_7: -1575796465
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_8: -1334175041
+      candy-land-mobile-game-design-elements-isolated-white-background-vector-cartoon-illustration-smartphone-screen-templates-with-sweet-town-map-chocolate-houses-fruit-icing-decor-gui-buttons_9: 2028199494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
