@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - a
+  - b
+  - JumpPlatform
+  - Hit
+  - Enem
   layers:
   - Default
   - TransparentFX
