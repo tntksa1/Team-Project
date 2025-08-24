@@ -37,7 +37,7 @@ public class GearsManager : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
        
-        if (other.CompareTag("Gear"))
+        if (other.CompareTag("Coin"))
         {
             CollectOne();
             Destroy(other.gameObject);
