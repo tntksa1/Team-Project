@@ -10,6 +10,8 @@ TagManager:
   - JumpPlatform
   - Hit
   - Enem
+  - coin
+  - Coin
   layers:
   - Default
   - TransparentFX
