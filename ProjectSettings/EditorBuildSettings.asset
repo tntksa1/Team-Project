@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Noura/UI Scenes/MainMenu.unity
     guid: 4d5c52c0e9d3740419cffa4ee33c91ad
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Mohammed/Game.unity
+    guid: 8374760271fa4534eb5d06019fca571c
   - enabled: 1
     path: Assets/Noura/UI Scenes/GameOver.unity
     guid: c1ab660349cabd047942d9ada28b3e06
