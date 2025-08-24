@@ -2412,7 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 2
+  fallSpeed: 0.1
   delay: 0.2
 --- !u!64 &365681842
 MeshCollider:
@@ -21260,7 +21260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 0.2
+  fallSpeed: 0.1
   delay: 0.2
 --- !u!65 &1427667823
 BoxCollider:
@@ -30110,7 +30110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9c8867d85839146a0bb3de636edb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 2
+  fallSpeed: 0.1
   delay: 0.2
 --- !u!64 &2100663182
 MeshCollider:
