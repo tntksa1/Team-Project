@@ -959,7 +959,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox (1)
@@ -1691,7 +1691,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox
@@ -1892,6 +1892,38 @@ PrefabInstance:
       propertyPath: m_TagString
       value: JumpPlatform
       objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0084
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0455
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9889669
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.6470511e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.14813684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.0536446e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987366621533452038, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -17.038
+      objectReference: {fileID: 0}
     - target: {fileID: 4501333734174769921, guid: e75a25a5142f08449b1fe6f764089a51, type: 3}
       propertyPath: m_TagString
       value: JumpPlatform
@@ -2018,6 +2050,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3536447436210443252, guid: 7dc190306db9f374ea5e720f95e15aa1, type: 3}
+--- !u!1 &291718009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5186185891906823366, guid: 59588f403d433cb478878774057de556, type: 3}
+  m_PrefabInstance: {fileID: 315114724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &297531284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4246040797058242672, guid: 3e49274e9eabf9a4b978c3e9e45384f2, type: 3}
@@ -18057,7 +18094,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox
@@ -19252,7 +19289,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox (4)
@@ -20650,7 +20687,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox (3)
@@ -20735,7 +20772,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: DeathBox1
@@ -30314,7 +30351,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: DeathBox2
@@ -30435,7 +30472,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox
@@ -30592,7 +30629,7 @@ PrefabInstance:
     - target: {fileID: 429197058663088871, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 291718009}
     - target: {fileID: 959824304359971773, guid: 726b1afca1b659c4ebe6d1969d1f101d, type: 3}
       propertyPath: m_Name
       value: Teleportbox (2)

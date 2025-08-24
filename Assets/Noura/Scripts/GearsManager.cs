@@ -6,8 +6,8 @@ public class GearsManager : MonoBehaviour
     public static GearsManager I;
 
     [Header("Goals")]
-    public int totalGoal = 6;   // ????? ??????
-    public int levelGoal = 2;   // ??? ?? ????
+    public int totalGoal = 6;  
+    public int levelGoal = 2;   
 
     [Header("Live")]
     public int totalCollected = 0;
@@ -18,7 +18,7 @@ public class GearsManager : MonoBehaviour
         if (I != null && I != this) { Destroy(gameObject); return; }
         I = this;
         DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += (_, __) => levelCollected = 0; // ??? ???? ?????? ??? ???? ???? ????
+        SceneManager.sceneLoaded += (_, __) => levelCollected = 0;
     }
 
     public void CollectOne()
