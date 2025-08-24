@@ -6,14 +6,14 @@ public class HeartsUI : MonoBehaviour
 {
     [SerializeField] HealthSystem target;
     [SerializeField] HeartIcon heartPrefab;      // Prefab فيه Image + HeartIcon
-    [SerializeField] RectTransform container;    // HUD Health (عليه Grid Layout Group)
+    [SerializeField] RectTransform container;    // HUD Health 
 
     readonly List<HeartIcon> hearts = new();
 
     void Awake()
     {
         if (!container) container = (RectTransform)transform;
-        if (!target) target = FindFirstObjectByType<HealthSystem>(); // لا بأس لو عطى تحذير
+        if (!target) target = FindFirstObjectByType<HealthSystem>(); 
     }
 
     void OnEnable() { if (target) target.onHealthChanged += Refresh; }
@@ -48,7 +48,7 @@ public class HeartsUI : MonoBehaviour
             hearts.Add(hi);
         }
 
-        // ⚠️ أهم جزء: وسّعي الـRect تلقائياً بناءً على GridLayoutGroup
+        
         var grid = container.GetComponent<GridLayoutGroup>();
         if (grid != null)
         {
