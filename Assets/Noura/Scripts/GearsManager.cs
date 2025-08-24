@@ -5,37 +5,42 @@ public class GearsManager : MonoBehaviour
 {
     public static GearsManager I;
 
-    [Header("Goals")]
+    [Header("Goal")]
     public int totalGoal = 6;
-    public int levelGoal = 2;
 
     [Header("Live")]
     public int totalCollected = 0;
-    public int levelCollected = 0;
+
+    [SerializeField] string winSceneName = "WinScene";
 
     void Awake()
     {
         if (I != null && I != this) { Destroy(gameObject); return; }
         I = this;
-
-        SceneManager.sceneLoaded += (_, __) => levelCollected = 0;
     }
 
     public void CollectOne()
     {
-        totalCollected++;
-        levelCollected++;
-        GearUI.RefreshStatic?.Invoke(levelCollected, levelGoal, totalCollected, totalGoal);
+        totalCollected = Mathf.Clamp(totalCollected + 1, 0, totalGoal);
+
+        
+        GearUI.RefreshStatic?.Invoke(totalCollected, totalGoal);
+
+       
+        if (totalCollected >= totalGoal)
+        {
+            SceneManager.LoadScene(winSceneName);
+        }
     }
 
-    // <<< الإضافة: جمع الكوين/الترس >>>
+    
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Coin")) // أو غيّرها إلى "Gear"
+       
+        if (other.CompareTag("Gear"))
         {
             CollectOne();
             Destroy(other.gameObject);
         }
     }
-    
 }

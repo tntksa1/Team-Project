@@ -12,6 +12,7 @@ TagManager:
   - Enem
   - coin
   - Coin
+  - Gear
   layers:
   - Default
   - TransparentFX
