@@ -2365,9 +2365,9 @@ MonoBehaviour:
   enemyTag: Enemy
   iFrames: 0.5
   enableFallKill: 1
-  minY: -10
-  fallDamage: 999
-  oneShotFall: 1
+  minY: -5
+  fallDamage: 2
+  oneShotFall: 0
 --- !u!1 &297531284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4246040797058242672, guid: 3e49274e9eabf9a4b978c3e9e45384f2, type: 3}
