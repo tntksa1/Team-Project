@@ -2335,6 +2335,20 @@ MonoBehaviour:
   totalGoal: 6
   totalCollected: 0
   winSceneName: WinScene
+--- !u!114 &291718019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291718009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68a1aeee097ef6449533a0f16c70f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHearts: 5
+  healthPerHeart: 2
 --- !u!1 &297531284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4246040797058242672, guid: 3e49274e9eabf9a4b978c3e9e45384f2, type: 3}
@@ -2510,6 +2524,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5186185891906823366, guid: 59588f403d433cb478878774057de556, type: 3}
       insertIndex: -1
       addedObject: {fileID: 291718018}
+    - targetCorrespondingSourceObject: {fileID: 5186185891906823366, guid: 59588f403d433cb478878774057de556, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 291718019}
   m_SourcePrefab: {fileID: 100100000, guid: 59588f403d433cb478878774057de556, type: 3}
 --- !u!1001 &320844382
 PrefabInstance:
@@ -30518,6 +30535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6164895217930824641, guid: bf799f1f4a753014b84eea5fb643fd72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 291718019}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
