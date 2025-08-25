@@ -2365,7 +2365,7 @@ MonoBehaviour:
   enemyTag: Enemy
   iFrames: 0.5
   enableFallKill: 1
-  minY: -5
+  minY: -1
   fallDamage: 2
   oneShotFall: 0
 --- !u!1 &297531284 stripped
