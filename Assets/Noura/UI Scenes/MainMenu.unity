@@ -382,8 +382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00e899c9b4c83d04ba6c7f15bd65f7f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 200651740}
-  sfxSource: {fileID: 200651740}
+  mixer: {fileID: 24100000, guid: c06b9e3692f668e4a905ff35a3248351, type: 2}
+  musicParam: MusicVolume
+  sfxParam: SFXVolume
+  defaultMusic: 0.8
+  defaultSFX: 0.8
 --- !u!82 &200651739
 AudioSource:
   m_ObjectHideFlags: 0
@@ -740,7 +743,6 @@ GameObject:
   - component: {fileID: 399395037}
   - component: {fileID: 399395039}
   - component: {fileID: 399395038}
-  - component: {fileID: 399395041}
   m_Layer: 5
   m_Name: Panel_Audio
   m_TagString: Untagged
@@ -812,20 +814,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399395036}
   m_CullTransparentMesh: 1
---- !u!114 &399395041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399395036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a533f561e14fc364698784c35589c806, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicSlider: {fileID: 1100681013}
-  sfxSlider: {fileID: 1435043453}
 --- !u!1 &622086929
 GameObject:
   m_ObjectHideFlags: 0
