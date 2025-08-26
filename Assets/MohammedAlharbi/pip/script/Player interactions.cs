@@ -8,57 +8,73 @@ public class Playerinteractions : MonoBehaviour
     public AudioClip cloud;
     public AudioClip Jmup;
     public AudioClip Damage;
-   public SkinnedMeshRenderer mr;
+    public SkinnedMeshRenderer mr;
+    
+
     Color origcolor;
     float flashTime = .15f;
-    
-    
 
+    Rigidbody rb;
 
-
+    [Header("Jump Settings")]
+    public float jumpForce = 7f;
+    bool isGrounded = true;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         ad = GetComponent<AudioSource>();
         mr = GetComponent<SkinnedMeshRenderer>();
+        rb = GetComponent<Rigidbody>();
+
         origcolor = mr.material.color;
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            ad.PlayOneShot(Jmup);
+            Jump();
         }
+       
+    }
+
+    void Jump()
+    {      
+        ad.PlayOneShot(Jmup);
+        isGrounded = false;
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("JumpPlatform"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("JumpPlatform"))
         {
-            anim.SetTrigger("Jump");
-            ad.PlayOneShot(cloud);
+            isGrounded = true;
+
+            if (collision.gameObject.CompareTag("JumpPlatform"))
+            {
+                anim.SetTrigger("Jump");
+                ad.PlayOneShot(cloud);
+                
+            }
         }
 
         if (collision.gameObject.CompareTag("Enem"))
         {
             flashstart();
-            Debug.Log("damge");
+            Debug.Log("damage");
             ad.PlayOneShot(Damage);
         }
-
     }
-
 
     void flashstart()
     {
         mr.material.color = Color.red;
         Invoke("Flashend", flashTime);
     }
+
     void Flashend()
     {
         mr.material.color = origcolor;
     }
 }
-

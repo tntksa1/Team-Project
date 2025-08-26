@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Noura/UI Scenes/Cutscene_Intro.unity
+    guid: eecbeb43c3ef32e4fb366c9652e5bd2d
+  - enabled: 1
     path: Assets/Noura/UI Scenes/MainMenu.unity
     guid: 4d5c52c0e9d3740419cffa4ee33c91ad
   - enabled: 1
