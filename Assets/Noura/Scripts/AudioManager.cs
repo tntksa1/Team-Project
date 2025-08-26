@@ -1,71 +1,58 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static AudioManager I;
 
-    [Header("Sources")]
-    public AudioSource musicSource;
-    public AudioSource sfxSource;
+    [Header("Mixer")]
+    public AudioMixer mixer;  
+   
+    public string musicParam = "MusicVolume";
+    public string sfxParam = "SFXVolume";
 
-    public float MusicVolume { get; private set; } = 0.8f;
-    public float SfxVolume { get; private set; } = 1f;
+    [Header("Defaults (0..1)")]
+    [Range(0f, 1f)] public float defaultMusic = 0.8f;
+    [Range(0f, 1f)] public float defaultSFX = 0.8f;
 
-    const string MUSIC_KEY = "musicVol";
-    const string SFX_KEY = "sfxVol";
+    const string PP_MUSIC = "PP_MusicVol";
+    const string PP_SFX = "PP_SFXVol";
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-            LoadVolumes();
-            ApplyVolumes();
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (I != null && I != this) { Destroy(gameObject); return; }
+        I = this;
+        DontDestroyOnLoad(gameObject);
+
+        float m = PlayerPrefs.HasKey(PP_MUSIC) ? PlayerPrefs.GetFloat(PP_MUSIC) : defaultMusic;
+        float s = PlayerPrefs.HasKey(PP_SFX) ? PlayerPrefs.GetFloat(PP_SFX) : defaultSFX;
+
+        SetMusic(m);
+        SetSFX(s);
     }
 
-    void LoadVolumes()
+    public void SetMusic(float v)
     {
-        MusicVolume = PlayerPrefs.GetFloat(MUSIC_KEY, MusicVolume);
-        SfxVolume = PlayerPrefs.GetFloat(SFX_KEY, SfxVolume);
+        
+        float dB = (v <= 0.0001f) ? -80f : Mathf.Log10(v) * 20f;
+        mixer.SetFloat(musicParam, dB);
+        PlayerPrefs.SetFloat(PP_MUSIC, v);
     }
 
-    void ApplyVolumes()
+    public void SetSFX(float v)
     {
-        if (musicSource) musicSource.volume = MusicVolume;
-        if (sfxSource) sfxSource.volume = SfxVolume;
+        float dB = (v <= 0.0001f) ? -80f : Mathf.Log10(v) * 20f;
+        mixer.SetFloat(sfxParam, dB);
+        PlayerPrefs.SetFloat(PP_SFX, v);
     }
 
-    public void SetMusicVolume(float v)
+    public float GetMusic01()
     {
-        MusicVolume = Mathf.Clamp01(v);
-        if (musicSource) musicSource.volume = MusicVolume;
-        PlayerPrefs.SetFloat(MUSIC_KEY, MusicVolume);
+        return PlayerPrefs.HasKey(PP_MUSIC) ? PlayerPrefs.GetFloat(PP_MUSIC) : defaultMusic;
     }
 
-    public void SetSFXVolume(float v)
+    public float GetSFX01()
     {
-        SfxVolume = Mathf.Clamp01(v);
-        if (sfxSource) sfxSource.volume = SfxVolume;
-        PlayerPrefs.SetFloat(SFX_KEY, SfxVolume);
-    }
-
-    public void PlayMusic(AudioClip clip, bool loop = true)
-    {
-        if (!musicSource || !clip) return;
-        musicSource.loop = loop;
-        musicSource.clip = clip;
-        musicSource.Play();
-    }
-
-    public void PlaySFX(AudioClip clip)
-    {
-        if (!sfxSource || !clip) return;
-        sfxSource.PlayOneShot(clip, SfxVolume);
+        return PlayerPrefs.HasKey(PP_SFX) ? PlayerPrefs.GetFloat(PP_SFX) : defaultSFX;
     }
 }
