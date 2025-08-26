@@ -15,13 +15,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.047666363}
+    m_Value: {x: 0.94492334, y: 0.16562587, z: 1, w: -0.109235436}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.3237339}
+    m_Value: {x: 1, y: 0.9234896, z: 0.89701986, w: -0.23237331}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.38133088}
+    m_Value: {x: 0.88549924, y: 0.8504737, z: 1, w: 0.20456836}
 --- !u!114 &-233868012363532443
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -37,10 +37,10 @@ MonoBehaviour:
   active: 1
   normalBias:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0
   viewBias:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 2
   scaleBiasWithMinProbeDistance:
     m_OverrideState: 0
     m_Value: 0
@@ -146,11 +146,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   intensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   response:
     m_OverrideState: 0
     m_Value: 0.8
