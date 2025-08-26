@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         rb.freezeRotation = true;
-        cam = Camera.main.transform; // auto assign main camera
+        cam = Camera.main.transform; 
     }
 
     void Update()

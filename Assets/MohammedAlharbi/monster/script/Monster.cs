@@ -40,7 +40,7 @@ public class Monster : MonoBehaviour
         {
             transform.LookAt(a);
         }
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("foot"))
         {
 
             rb.isKinematic = true;
