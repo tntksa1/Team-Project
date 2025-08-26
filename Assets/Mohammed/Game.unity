@@ -18646,11 +18646,7 @@ PrefabInstance:
     - target: {fileID: 275797921079096723, guid: e0c7a13424fe2dd43880ad29b82a4796, type: 3}
       propertyPath: m_Text
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       value: Around a house puffs when warm!
-=======
-      value: Press E
->>>>>>> Stashed changes
 =======
       value: Press E
 >>>>>>> Stashed changes
@@ -29991,11 +29987,7 @@ PrefabInstance:
     - target: {fileID: 275797921079096723, guid: e0c7a13424fe2dd43880ad29b82a4796, type: 3}
       propertyPath: m_Text
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       value: Behind core memory or a childhood candy!
-=======
-      value: Press E
->>>>>>> Stashed changes
 =======
       value: Press E
 >>>>>>> Stashed changes
